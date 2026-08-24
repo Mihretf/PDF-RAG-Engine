@@ -1,0 +1,44 @@
+# Node & Next.js
+client/node_modules/
+client/.next/
+client/out/
+client/build/
+client/.pnp/
+client/.pnp.js
+
+# Python & Virtual Environments
+server/venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Local Databases & Persistent Storage
+server/chroma_db/
+server/uploaded_files/
+*.sqlite3
+
+# IDEs & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
